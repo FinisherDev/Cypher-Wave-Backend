@@ -54,7 +54,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:5173'
+    'http://localhost:5173',
+    'https://gleeful-seahorse-b79991.netlify.app/',
 ]
 
 ROOT_URLCONF = 'cypherwave.urls'
